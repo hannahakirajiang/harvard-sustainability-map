@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #514e4c;
+  margin: 0;
+}
+.header {
+  display: flex;
+}
+.logo {
+  flex-basis: 20%;
+  float: left;
+  padding: 2em 0 2em 5em;
+}
+.logo img {
+  width: 400px;
+}
+.nav {
+  flex-basis: 80%;
+  float: right;
+  padding: 2em 5em 2em 0;
+}
+#map, #contact, #more {
+  float: right;
+  width: 9em;
+  text-align: center;
+  background: #78a22f;
+  padding: 1em 20px;
+  font-size: 1.2em;
+}
+#map a, #contact a, #more a {
+  text-decoration: none;
+  color: white;
+}
+.thisPage {
+  background: #678e23;
+}
+.bigContainer {
+  background-image: url("img/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  clear: both;
+  text-align: center;
+}
+.mainInfo {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.60);
+  padding: 1em 2em;
+  margin: 8em auto;
+}
+.mainInfo p {
+  line-height: 150%;
+  font-size: 1.2em;
+}
+.mainInfo hr {
+  width: 5em;
+  border-color: #78a22f;
+  border-width: 1px;
+  border-style: solid;
+}
+.content {
+  padding: 2em 5em;
+}
+.content h2 {
+  color: #78a22f;
+  font-size: 2em;
+  line-height: 150%;
+}
+.content h3 {
+  font-size: 1.5em;
+}
+.content a {
+  color: #78a22f;
+  text-decoration: none;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+#mappic{
+	width: 100%;
+	border-style: solid;
+	border-color: #78a22f;
+}
+footer {
+  display: flex;
+  padding: 1em 5em;
+  background: #262626;
+  margin-top: 3em;
+  color: white;
+  bottom: 0;
+}
+.footerLink {
+  text-decoration: underline;
+  color: white;
+}
+.footerLink:hover {
+  color: #78a22f;
+}
+/*form*/
+.hint {
+  display: none;
+  color: red;
+}
+#counter {
+  color: rgba(130, 130, 130, 1.00);
+}
+#submitBtn {
+  background: #78a22f;
+  font-size: 1em;
+  border-color: #678e23;
+  border-width: medium;
+  border-style: solid;
+	padding: 0.5em 1.5em;
+	color: white;
+}
+fieldset{
+  border-color: #78a22f;
+	border-style: solid;
+}
+legend{
+	font-weight: bold;
+	color: #678e23;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Harvard Sustainability Map</title>
+
+	<!-- map css (outside source) -->
+		<link rel="stylesheet" href="leaflet/leaflet.css" type="text/css"></link>
+	<!-- panel css (outside source with modification)-->
+		<link rel="stylesheet" href="plugins/leaflet-panel-layers.src.css" type="text/css"></link>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<!--import map api (outside source)-->
+		<script src="leaflet/leaflet.js"></script>
+		<script src="plugins/leaflet-panel-layers.src.js"></script>
+
+   <!--JSON for map data-->
+<!--Reference:
+All map data was downloaded from Harvard Sustainability Walking Map and converted to json files. You can find Harvard Sustainability Walking Map here: https://green.harvard.edu/tools-resources/green-tip/harvard-sustainability-walking-map
+-->
+		<script src = "featureLayers/Leed.js"></script>
+		<script src = "featureLayers/BikeShare.js"></script>
+		<script src = "featureLayers/energy.js"></script>
+		<script src = "featureLayers/Landscape.js"></script>
+		<script src = "featureLayers/education.js"></script>
+
+	<!--my css-->
+		<link rel="stylesheet" href="styleMap.css" type="text/css">
+
+   <!--	my js-->
+		<script src = "script.js"></script>
+</head>
+
+
+      <body>
+
+		 <!--full screen map-->
+        <div class="custom-popup" id="mapid"></div>
+
+
+      </body>
+  </html>
